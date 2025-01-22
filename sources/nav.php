@@ -1,0 +1,24 @@
+<?php
+echo'<nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-bottom:-22px">';
+echo'<a class="navbar-brand" href="welcome.php"> HOME</a>';
+echo'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">';
+echo'<span class="navbar-toggler-icon"></span>';
+echo'</button>';
+echo'<div class="collapse navbar-collapse" id="navbarNav">';
+echo'<ul class="navbar-nav">';
+  echo'<li class="nav-item active">';
+	echo'<a class="nav-link" href="browse.php"> Browse</a>';
+  echo'</li>';
+  echo'<li class="nav-item">';
+	echo'<a class="nav-link" href="explore.php">Explore</a>';
+  echo'</li>';
+  echo'<li class="nav-item">';
+	echo'<a class="nav-link" href="compare.php">Compare</a>';
+  echo'</li>';
+  echo'<li class="nav-item">';
+	echo'<a class="nav-link" href="logout.php">Logout</a>';
+  echo'</li>';
+echo'</ul>';
+echo'</div>';
+echo'</nav>';
+?>';
